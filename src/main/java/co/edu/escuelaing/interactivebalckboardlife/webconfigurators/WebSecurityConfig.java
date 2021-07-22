@@ -45,22 +45,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 				.roles("USER")
 				.build();
 
-		UserDetails user2 =
-			 User.withDefaultPasswordEncoder()
-				.username("user2")
-				.password("password2")
-				.roles("USER")
-				.build(); 
-                UserDetails user3 =
-			 User.withDefaultPasswordEncoder()
-				.username("user2")
-				.password("password2")
-				.roles("USER")
-				.build();   
-
-		InMemoryUserDetailsManager imud= new InMemoryUserDetailsManager(user);
-                imud.createUser(user2);
-                imud.createUser(user3);
-                return imud;
+		return new InMemoryUserDetailsManager(user);
 	}
 }
