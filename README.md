@@ -28,10 +28,10 @@ El juego cuenta con el mismo funcionamiento del ahorcado clásico, se tiene una 
 Los jugadores compiten en tiempo real vía web, tienen un tema y unas pistas, cada pista usada le sumará un miembro al hombre ahorcado de quien la use. Cuando alguien adivina una letra, dependiendo de las apariciones de esa letra, sumará un número de puntos, pero si por el contrario en su turno el jugador erró, su hombre se irá ahorcando; quien agoté sus oportunidades y ahorque al pobre hombre será eliminado del juego. Gana el jugador con mayor puntaje, luego de aparecer la palabra completa.
 
 ### Historias de usuario
-#### 1.Registro
+#### 1.Ingreso
 **Como** Usuario 
-**Quiero** Registrarme
-**Para Poder** Ingresar al juego y entrar al Ranking
+**Quiero** Ingresar a una sala
+**Para Poder** competir con los demas
 ##### Criterios de aceptación
 * El usuario debe tener un nombre para poder ingresar y entrar en el ranking
 * El usuario puede entrar sin nombre pero no podrá entrar en el ranking
@@ -51,15 +51,9 @@ Los jugadores compiten en tiempo real vía web, tienen un tema y unas pistas, ca
 * La sala debe tener un nombre único
 * La sala debe estar configurada en cuanto al máximo de personas, tiempo y tema, antes de la creación
 
-#### 4.Ingresar una sala
-**Como** Usuario 
-**Quiero** Ingresar una sala
-**Para Poder** Jugar con amigos u otras personas
-##### Criterios de aceptación
-* La sala no debe de estar llena
-* El juego no debe haber empezado
 
-#### 5.Puntaje
+
+#### 4.Puntaje
 **Como** Usuario 
 **Quiero** ganar puntaje
 **Para Poder** poder ganar el juego y subir en el ranking
