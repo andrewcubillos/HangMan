@@ -13,16 +13,11 @@ El objetivo de este proyecto es brindar al usuario, una opción multijugador del
 
 En la actualidad existen un gran número de juegos de este tipo tanto online, como móvil, pero todos cumplen con una misma estructura, una palabra, un solo ahorcado. Este proyecto, propone una versión un poco diferente, en donde haya una o varias personas, adivinando una o varias palabras al mismo tiempo, ganando puntos y rankeando
 
-![alt text](https://raw.githubusercontent.com/andrewcubillos/ARSW-2021-i-Project-MultiHangManWeb/master/img/MULTIHANGMAN3.png)
+![alt text](https://raw.githubusercontent.com/andrewcubillos/HangMan/master/img/loginnew.PNG)
 
-![alt text](https://raw.githubusercontent.com/andrewcubillos/ARSW-2021-i-Project-MultiHangManWeb/master/img/MULTIHANGMAN4.png)
-
-![alt text](https://raw.githubusercontent.com/andrewcubillos/ARSW-2021-i-Project-MultiHangManWeb/master/img/MULTIHANGMAN.png)
-
-![alt text](https://raw.githubusercontent.com/andrewcubillos/ARSW-2021-i-Project-MultiHangManWeb/master/img/MULTIHANGMAN2.png)
-
-![alt text](https://raw.githubusercontent.com/andrewcubillos/ARSW-2021-i-Project-MultiHangManWeb/master/img/MULTIHANGMAN6.png)
-
+![alt text](https://raw.githubusercontent.com/andrewcubillos/HangMan/master/img/interactivenew.PNG)
+![alt text](https://raw.githubusercontent.com/andrewcubillos/HangMan/master/img/lousewon.PNG)
+![alt text](https://raw.githubusercontent.com/andrewcubillos/HangMan/master/img/wonluse.PNG)
 ### Funcionamiento
 El juego cuenta con el mismo funcionamiento del ahorcado clásico, se tiene una palabra a adivinar y alguien quien la adivine, en este caso varios jugadores competirán por quien la adivina primero, sin morir en el intento, puede darse el caso de que el modo sea o una palabra y muchos jugadores, o varias palabras y varios jugadores. 
 Los jugadores compiten en tiempo real vía web, tienen un tema y unas pistas, cada pista usada le sumará un miembro al hombre ahorcado de quien la use. Cuando alguien adivina una letra, dependiendo de las apariciones de esa letra, sumará un número de puntos, pero si por el contrario en su turno el jugador erró, su hombre se irá ahorcando; quien agoté sus oportunidades y ahorque al pobre hombre será eliminado del juego. Gana el jugador con mayor puntaje, luego de aparecer la palabra completa.
@@ -59,5 +54,12 @@ Los jugadores compiten en tiempo real vía web, tienen un tema y unas pistas, ca
 **Para Poder** poder ganar el juego y subir en el ranking
 ##### Criterios de aceptación
 * El puntaje debe ir aumentando en tiempo real
+
+#### 5.Interacción
+**Como** Usuario 
+**Quiero** interactuar en tiempo real con los demas jugadores
+**Para Poder** poder saber el estado de los demas
+##### Criterios de aceptación
+* Los usuarios deben conocer en todo momento el estado de los demas
 
 
