@@ -226,8 +226,8 @@ class WBCanvas extends React.Component {
                             posicion2=550;
                             
                         }
-                        p.text('you louse!', posicion1-200, 200);
-                        p.text('you louse!', posicion2-200, 200);
+                        p.text('you lose!', posicion1-200, 200);
+                        p.text('you lose!', posicion2-200, 200);
                         wsreference.sendecommand("delete");
                         wsreference.sendetext('you lose!', posicion1-200, 200);
                         wsreference.sendetext('you lose!', posicion2-200, 200);
