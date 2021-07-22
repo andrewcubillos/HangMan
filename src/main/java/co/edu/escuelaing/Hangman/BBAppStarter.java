@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.edu.escuelaing.interactivebalckboardlife;
+package co.edu.escuelaing.Hangman;
 
 
 import java.util.Collections;
