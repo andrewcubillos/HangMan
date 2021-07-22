@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.edu.escuelaing.HangMan.webconfigurators;
+package co.edu.escuelaing.interactivebalckboardlife.webconfigurators;
 
 
 
@@ -45,6 +45,22 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 				.roles("USER")
 				.build();
 
-		return new InMemoryUserDetailsManager(user);
+		UserDetails user2 =
+			 User.withDefaultPasswordEncoder()
+				.username("user2")
+				.password("password2")
+				.roles("USER")
+				.build(); 
+                UserDetails user3 =
+			 User.withDefaultPasswordEncoder()
+				.username("user2")
+				.password("password2")
+				.roles("USER")
+				.build();   
+
+		InMemoryUserDetailsManager imud= new InMemoryUserDetailsManager(user);
+                imud.createUser(user2);
+                imud.createUser(user3);
+                return imud;
 	}
 }

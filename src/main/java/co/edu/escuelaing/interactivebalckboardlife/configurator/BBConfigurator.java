@@ -1,4 +1,4 @@
-package co.edu.escuelaing.HangMan.configurator;
+package co.edu.escuelaing.interactivebalckboardlife.configurator;
 
 
 import org.springframework.context.annotation.Bean;
