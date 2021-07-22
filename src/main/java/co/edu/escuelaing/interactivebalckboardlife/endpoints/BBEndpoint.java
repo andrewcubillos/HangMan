@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.edu.escuelaing.HangMan.endpoints;
+package co.edu.escuelaing.interactivebalckboardlife.endpoints;
 
 
 import java.io.IOException;
